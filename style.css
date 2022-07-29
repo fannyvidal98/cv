@@ -1,0 +1,55 @@
+
+body {
+  font-family: 'Kaisei Opti', serif;
+  background-color: #cf6a87;
+}
+
+.cajita_happy {
+  width: 700px;
+  padding: 0px 50px ;
+  margin: 0px auto;
+  text-align: center;
+}
+.cajita_menor {
+  background-color: #F26F5A
+}
+h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 25px;
+}
+
+p {
+  color: #fff;
+  font-size: 22px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: maroon;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cajita_happy {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cajita_happy {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cajita_happy {
+    width: 300px;
+  }
+}
